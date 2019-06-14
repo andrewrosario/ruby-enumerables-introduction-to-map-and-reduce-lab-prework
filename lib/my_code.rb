@@ -59,7 +59,14 @@ def reduce_to_all_true(array)
   return true 
 end
 
-
+def reduce_to_all_true(array)
+  counter = 0
+  while counter < array.length 
+    if array[counter] == false 
+      return false
+  end
+  return true 
+end
 
 
 
